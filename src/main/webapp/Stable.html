@@ -17,7 +17,8 @@
                 <img title="Главная" src="images/Stable_logo.png" alt="logo"
                      style="width: 124px; height: 124px; margin: 5px;">
             </a>
-            <p style="position: absolute; top: 12%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: #6F4E37">Stable</p>
+            <p style="position: absolute; top: 12%; left: 50%; transform: translate(-50%, -50%); margin: 0; color: #6F4E37">
+                Stable</p>
         </th>
     </tr>
 
@@ -31,13 +32,13 @@
 
             <!--Навигация сайта            -->
             <ul>
-                <a href="Stable.html" title="Главная">Главная</a>
+                <a href="Stable.html" title="Главная" style="text-decoration: none; color: #5C3D2E">Главная</a>
                 <br>
-                <a href="Photo.html" title="Фото">Фото</a>
+                <a href="Photo.html" title="Фото" style="text-decoration: none; color: #5C3D2E">Фото</a>
                 <br>
-                <a href="Contacts.html" title="Контакты">Контакты</a>
+                <a href="Contacts.html" title="Контакты" style="text-decoration: none; color: #5C3D2E">Контакты</a>
                 <br>
-                <a href="#down" title="Перейти к низу сайта">Вниз</a>
+                <a href="#down" title="Перейти к низу сайта" style="text-decoration: none; color: #5C3D2E">Вниз</a>
             </ul>
         </td>
 
@@ -100,12 +101,24 @@
                 <br>
                 <label style="color: #6F4E37" for="phone_number">Введите Номер телефона</label>
                 <br>
-                <input type="text" placeholder="+375 xx xxx xx xx" value="+375" name="phone_number" id="phone_number">
+                <input type="text" placeholder="+375 xx xxx xx xx" value="+375" name="phone_number" id="phone_number"
+                       maxlength="13">
+
+                <br>
+                <label style="color: #6F4E37" for="date">Дата</label>
+                <br>
+                <input type="date" id="date">
+
+                <br>
+                <br>
+                <input type="submit" value="Отправить" style="color: #6F4E37">
+
+
             </form>
 
         </td>
         <td>
-            <a href="#up" title="Перейти к верху сайта">Вверх</a>
+            <a href="#up" title="Перейти к верху сайта" style="text-decoration: none; color: #5C3D2E">Вверх</a>
         </td>
     </tr>
 </table>
