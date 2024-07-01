@@ -1,0 +1,28 @@
+body {
+    background-color: #F8F4E1;
+}
+
+.navigation {
+    text-decoration: none;
+    color: #5C3D2E;
+}
+
+.main-images {
+    width: 449px;
+    height: 300px;
+    margin: 5px;
+}
+
+.logo {
+    width: 124px;
+    height: 124px;
+    margin: 5px;
+}
+
+.heading-text {
+    color: #6F4E37;
+}
+
+.record-form {
+    color: #6F4E37;
+}
