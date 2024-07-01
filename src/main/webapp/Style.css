@@ -7,10 +7,12 @@ body {
     color: #5C3D2E;
 }
 
+/*Цвет ссылки при наведении*/
 .navigation:hover {
     color: #1A1A1A;
 }
 
+/*Цвет ссылки после перехода по ней*/
 .navigation:visited {
     color: #A67B5B;
 }
